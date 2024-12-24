@@ -79,3 +79,36 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* medium screens ( tablets, 768px and up */
+
+@media screen and (min-width: 768px) {
+    /* makes all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* large screens ( tablets, 992px and up */
+@media screen and (min-width: 992px) {
+    /* makes all services cards the same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Extra large screens ( tablets, 1200px and up */
+@media screen and (min-width: 1200px) {
+    /* makes all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* XXL screens ( tablets, 1400px and up */
+@media screen and (min-width: 1400px) {
+    /* makes all services cards the same height for consistency */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
